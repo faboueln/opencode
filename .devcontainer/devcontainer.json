@@ -1,0 +1,8 @@
+{
+  "name": "opencode Development",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:24-bookworm",
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash",
+  "remoteEnv": {
+    "PATH": "/home/node/.bun/bin:${containerEnv:PATH}"
+  }
+}
